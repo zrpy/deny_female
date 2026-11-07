@@ -6,7 +6,7 @@ const translations = {
     genderPlaceholder: "選択してください", man: "男性", woman: "女性", other: "その他 / 回答しない", submit: "サインアップ",
     privacy: "デモ画面です。入力情報は送信・保存されません。", invalid: "入力内容を確認してください。",
     welcome: "ようこそ！登録内容を確認しました。これはデモのため、情報は送信・保存されていません。",
-    rejected: "このコミュニティは男性向けです。今回は登録をご案内できません。入力情報は保存されていません。"
+    rejected: "このコミュニティは男性向けです。早く出ていけ。入力情報は保存されていません。"
   },
   en: {
     pageTitle: "Sign up", languageLabel: "Display language", eyebrow: "A community for men",
@@ -15,16 +15,7 @@ const translations = {
     genderPlaceholder: "Select an option", man: "Man", woman: "Woman", other: "Another identity / Prefer not to say", submit: "Sign up",
     privacy: "Demo only. Your information is not sent or stored.", invalid: "Please check your entries.",
     welcome: "Welcome! Your details look good. This is a demo; nothing has been sent or saved.",
-    rejected: "This community is for men, so we can't offer signup. Your information has not been saved."
-  },
-  es: {
-    pageTitle: "Registro", languageLabel: "Idioma", eyebrow: "Una comunidad para hombres",
-    title: "Crear una cuenta", intro: "Un lugar para hablar con libertad y sentirte escuchado.", nameLabel: "Nombre visible", namePlaceholder: "Ej.: Alex",
-    emailLabel: "Correo electrónico", passwordLabel: "Contraseña", passwordPlaceholder: "Al menos 8 caracteres", genderLabel: "Género",
-    genderPlaceholder: "Selecciona una opción", man: "Hombre", woman: "Mujer", other: "Otra identidad / Prefiero no decirlo", submit: "Registrarme",
-    privacy: "Solo demostración. Tu información no se envía ni se guarda.", invalid: "Revisa los datos introducidos.",
-    welcome: "¡Bienvenido! Los datos parecen correctos. Esta demo no envía ni guarda información.",
-    rejected: "Esta comunidad está dirigida a hombres y no podemos ofrecerte el registro. Tus datos no se han guardado."
+    rejected: "This community is for men, so we must get out early. Your information has not been saved."
   }
 };
 
