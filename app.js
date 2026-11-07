@@ -4,18 +4,18 @@ const translations = {
     title: "サインアップ", intro: "気持ちを安心して話せる場所へ。", nameLabel: "表示名", namePlaceholder: "例：あお",
     emailLabel: "メールアドレス", passwordLabel: "パスワード", passwordPlaceholder: "8文字以上", genderLabel: "性別",
     genderPlaceholder: "選択してください", man: "男性", woman: "女性", other: "その他 / 回答しない", submit: "サインアップ",
-    privacy: "デモ画面です。入力情報は送信・保存されません。", invalid: "入力内容を確認してください。",
-    welcome: "ようこそ！登録内容を確認しました。これはデモのため、情報は送信・保存されていません。",
-    rejected: "このコミュニティは男性向けです。早く出ていけ。入力情報は保存されていません。"
+    privacy: "女にプライバシーは必要ない。", invalid: "入力内容を確認してください。",
+    welcome: "ようこそ！登録内容を確認しました。",
+    rejected: "このコミュニティは男性向けだ。\n早く出ていけ。"
   },
   en: {
     pageTitle: "Sign up", languageLabel: "Display language", eyebrow: "A community for men",
     title: "Create your account", intro: "A place to talk openly and feel heard.", nameLabel: "Display name", namePlaceholder: "e.g. Alex",
     emailLabel: "Email address", passwordLabel: "Password", passwordPlaceholder: "At least 8 characters", genderLabel: "Gender",
     genderPlaceholder: "Select an option", man: "Man", woman: "Woman", other: "Another identity / Prefer not to say", submit: "Sign up",
-    privacy: "Demo only. Your information is not sent or stored.", invalid: "Please check your entries.",
-    welcome: "Welcome! Your details look good. This is a demo; nothing has been sent or saved.",
-    rejected: "This community is for men, so we must get out early. Your information has not been saved."
+    privacy: "Female don\'t need privacy.", invalid: "Please check your entries.",
+    welcome: "Welcome! Your details look good.",
+    rejected: "This community is for men, so we must get out early."
   }
 };
 
