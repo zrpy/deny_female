@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a27">
+  <title>サインアップ</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="signup-page">
+    <div class="language-row">
+      <label class="sr-only" for="language" data-i18n="languageLabel">表示言語</label>
+      <select id="language" aria-label="Language">
+        <option value="ja">日本語</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+    <section class="signup-card" aria-labelledby="title">
+      <p class="eyebrow" data-i18n="eyebrow">男性向けコミュニティ</p>
+      <h1 id="title" data-i18n="title">サインアップ</h1>
+      <p class="intro" data-i18n="intro">気持ちを安心して話せる場所へ。</p>
+      <form id="signup-form" novalidate>
+        <div class="field"><label for="name" data-i18n="nameLabel">表示名</label><input id="name" name="name" type="text" autocomplete="nickname" placeholder="例：あお" data-i18n-placeholder="namePlaceholder" required></div>
+        <div class="field"><label for="email" data-i18n="emailLabel">メールアドレス</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+        <div class="field"><label for="password" data-i18n="passwordLabel">パスワード</label><input id="password" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="8文字以上" data-i18n-placeholder="passwordPlaceholder" required></div>
+        <div class="field">
+          <label for="gender" data-i18n="genderLabel">性別</label>
+          <div class="select-wrap">
+            <select id="gender" name="gender" required>
+              <option value="" data-i18n="genderPlaceholder">選択してください</option>
+              <option value="man" data-i18n="man">男性</option>
+              <option value="woman" data-i18n="woman">女性</option>
+              <option value="other" data-i18n="other">その他 / 回答しない</option>
+            </select>
+            <span class="chevron" aria-hidden="true"></span>
+          </div>
+        </div>
+        <button type="submit" data-i18n="submit">サインアップ</button>
+      </form>
+      <p id="status" class="status" role="status" aria-live="polite" tabindex="-1"></p>
+      <p class="privacy" data-i18n="privacy">デモ画面です。入力情報は送信・保存されません。</p>
+    </section>
+  </main>
+</body>
+</html>
